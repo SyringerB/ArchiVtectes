@@ -1,0 +1,109 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Entête */
+.entete {
+    font-family: Broadway, sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: #48B0CE;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+}
+
+/* Style pour le bloc contenant le texte */
+.bloc-texte {
+    background-color: #B0D285; /* Couleur différente du fond global */
+    margin: 50px auto;         /* Centre le bloc horizontalement */
+    padding: 20px;             /* Espacement interne */
+    border-radius: 10px;       /* Angles arrondis */
+    max-width: 800px;          /* Largeur maximale */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    
+}
+
+/* Style du titre */
+.titre {
+    text-align: center;        /* Centre le titre */
+    font-weight: bold;         /* Met le titre en gras */
+    font-size: 20px;           /* Taille du texte */
+    margin-bottom: 15px;       /* Espace sous le titre */
+    color: #333;               /* Couleur du texte */
+}
+
+/* Style pour le texte justifié */
+.contenu {
+    text-align: justify;       /* Justifie le texte */
+    font-size: 16px;           /* Taille de la police */
+    line-height: 1.6;          /* Hauteur de ligne pour aérer */
+    color: #555;               /* Couleur légèrement grisée */
+    margin-bottom: 15px;       /* Espace sous le paragraphe */
+    margin: 20px;
+    text-indent: 2em;
+}
+
+/* Style pour les références (hyperliens) */
+.references {
+    display: block;
+    align-item: center;
+    gap: 0px ;/* Centre les liens */
+}
+
+.lien-reference {
+    display: block;     /* Permet d’ajouter des marges aux liens */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 5px 10px;          /* Espacement entre les liens */
+    color: #007BFF;            /* Couleur bleue pour les hyperliens */
+    text-decoration: none;     /* Retire le soulignement par défaut */
+    font-weight: bold;         /* Met les liens en gras */
+    font-size: 14px;           /* Taille des liens */
+    padding: 5px 10px;         /* Espacement interne */
+    border-radius: 5px;        /* Angles arrondis */
+    transition: background-color 0.3s, color 0.3s; /* Animation */
+    text-align: center;
+}
+/* Zone des hyperliens */
+.liens {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.liens ul {
+    list-style: none;
+    padding: 0;
+}
+
+.liens li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.liens a {
+    color: #00c4ff;
+    text-decoration: none;
+}
+
+.liens a:hover {
+    text-decoration: underline;
+}
+/* Interaction au survol des liens */
+.lien-reference:hover {
+    color: white; /* Texte blanc au survol */
+    text-decoration:underline;
+    
+}
